@@ -1,3 +1,51 @@
+#myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+    /* position: static; */
+    left: initial;
+    width: initial;
+    /* margin-left: initial; */
+    margin: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+
+/*---------------coursel End --------------*/
+/*--------------coursel montviro ----------*/
+.carousel-caption1 {
+    position: absolute;
+    right: 175px;
+    bottom: 20px;
+    left: 50%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    /* text-align: center; */
+}
+.carousel-indicators.point {
+    right: 175px;
+    left: unset;
+    bottom: 60px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+/*-------------End coursel montvrio ----------*/
+
 button.navbar-toggler.collapsed.mob-btn {
     background-color: #dcdcdc;
 }
@@ -14,4 +62,30 @@ a.nav-link {
 }
 .card-body.padd {
     padding: 10px 0 0 0;
+}
+
+
+.navigation {
+    position: fixed; 
+      width: 30%;
+      margin-left: 2%;
+    background-color: #999;
+    color: #fff;
+  
+    &__link {
+          display: block;
+      color: #ddd; 
+      text-decoration: none;
+      padding: 1em;
+          font-weight: 400;
+          
+          &:hover {
+              background-color: #aaa;
+          }
+      
+         &.active {
+             color: white;
+               background-color: rgba(0,0,0,0.1);
+         }
+    }
 }
