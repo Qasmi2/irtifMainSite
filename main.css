@@ -20,7 +20,52 @@
 #myCarousel .carousel-indicators > li.active img {
     opacity: 0.7;
 }
+/*--------------2--------------------*/
+#myCarousel2 .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
 
+#myCarousel2 .carousel-indicators {
+    /* position: static; */
+    left: initial;
+    width: initial;
+    /* margin-left: initial; */
+    margin: initial;
+}
+
+#myCarousel2 .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel2 .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+/*-------------------3------------------*/
+#myCarousel3 .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel3 .carousel-indicators {
+    /* position: static; */
+    left: initial;
+    width: initial;
+    /* margin-left: initial; */
+    margin: initial;
+}
+
+#myCarousel3 .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel3 .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
 /*---------------coursel End --------------*/
 /*--------------coursel montviro ----------*/
 .carousel-caption1 {
