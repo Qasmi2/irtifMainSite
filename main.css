@@ -42,7 +42,7 @@
 .carousel-indicators li {
     width: 10px;
     height: 10px;
-    border-radius: 100%;
+    /* border-radius: 100%; */
   }
 /*-------------End coursel montvrio ----------*/
 
@@ -64,28 +64,17 @@ a.nav-link {
     padding: 10px 0 0 0;
 }
 
+/*--------------- medai section ----------*/
+.type-list{
+    list-style-type: none;
+    color:#944991 !important;
+}
 
-.navigation {
-    position: fixed; 
-      width: 30%;
-      margin-left: 2%;
-    background-color: #999;
-    color: #fff;
-  
-    &__link {
-          display: block;
-      color: #ddd; 
-      text-decoration: none;
-      padding: 1em;
-          font-weight: 400;
-          
-          &:hover {
-              background-color: #aaa;
-          }
-      
-         &.active {
-             color: white;
-               background-color: rgba(0,0,0,0.1);
-         }
+.colo {
+    color: #944991;
+}
+@media screen and (max-width: 992px) {
+     .show{
+        display: none;
     }
 }
